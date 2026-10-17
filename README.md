@@ -1,3 +1,4 @@
+```html
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=CapCut%20Downloader&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
   
@@ -71,3 +72,95 @@ Send the following command in any WhatsApp chat:
 
 ```text
 .capcut https://www.capcut.com/tv2/ZSgjAC6WX/
+```
+
+<div style="background-color: #1c2128; padding: 10px; border-radius: 5px; border: 1px solid #30363d;">
+  <strong>💡 Note:</strong> The bot will automatically fetch the metadata, process the video buffer, and return the video with a rich preview.
+</div>
+
+---
+
+🛠️ Technical Configuration
+
+This plugin follows the standard Baileys architecture. Ensure your bot's main execution context provides the following parameters to the plugin:
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Parameter</th>
+      <th align="left">Data Type</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>m</code></td>
+      <td><code>Object</code></td>
+      <td>The incoming Baileys message object.</td>
+    </tr>
+    <tr>
+      <td><code>conn</code></td>
+      <td><code>Object</code></td>
+      <td>The active Baileys socket connection object.</td>
+    </tr>
+    <tr>
+      <td><code>text</code></td>
+      <td><code>String</code></td>
+      <td>The URL following the command.</td>
+    </tr>
+    <tr>
+      <td><code>command</code></td>
+      <td><code>String</code></td>
+      <td>The invoked command name.</td>
+    </tr>
+    <tr>
+      <td><code>usedPrefix</code></td>
+      <td><code>String</code></td>
+      <td>The command prefix (e.g., <code>.</code>).</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+📄 License & Credits
+
+Distributed under the MIT License. Free to use and modify.
+
+<details>
+<summary>📜 <strong>Click to view full MIT License</strong></summary>
+<br>
+
+```text
+MIT License
+
+Copyright (c) 2026 KyuuAI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+</details>
+
+<br>
+
+<div align="center">
+  <p>Engineered with precision by <strong><a href="https://github.com/kyuuXzry">KyuuXzry</a></strong>.</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" />
+</div>
+```
