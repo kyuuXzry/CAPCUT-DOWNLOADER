@@ -6,6 +6,15 @@
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   <img src="https://img.shields.io/badge/Baileys-ED1C24?style=for-the-badge&logo=baileys&logoColor=white" alt="Baileys" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+
+  <br><br>
+
+  <a href="https://wa.me/628567126744">
+    <img src="https://img.shields.io/badge/WhatsApp-Contact-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+  </a>
+  <a href="https://instagram.com/Rissxzry_">
+    <img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
 </div>
 
 <br>
@@ -118,6 +127,12 @@ SOFTWARE.
 <hr>
 
 <div align="center">
+  <h3>Contact Developer</h3>
+  <p>
+    <a href="https://wa.me/628567126744"><strong>WhatsApp:</strong> +62 856-7126-744</a> | 
+    <a href="https://instagram.com/Rissxzry_"><strong>Instagram:</strong> @Rissxzry_</a>
+  </p>
+  <br>
   <p>&copy; 2026 KyuuAI. All rights reserved.</p>
   <p><em>Developed for the WhatsApp Bot Community.</em></p>
 </div>
