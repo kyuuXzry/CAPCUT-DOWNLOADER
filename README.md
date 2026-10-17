@@ -37,7 +37,7 @@ This plugin is a high-performance CapCut scraper designed exclusively for WhatsA
 ### 🚀 Key Features
 
 *   **No Watermark:** Extracts the original video directly from CapCut's servers.
-*   **Buffer Processing:** Downloads the video into memory (`arraybuffer`) before sending it to WhatsApp, ensuring 100% delivery rate.
+*   **Buffer Processing:** Downloads the video into memory (`arraybuffer`) before sending it to WhatsApp, ensuring a 100% delivery rate.
 *   **Rich Metadata:** Automatically fetches the video title, file size, and thumbnail for a premium preview.
 *   **Clean Error Handling:** Prevents the bot from crashing on invalid links or server timeouts.
 
@@ -122,45 +122,3 @@ This plugin follows the standard Baileys architecture. Ensure your bot's main ex
 </table>
 
 ---
-
-📄 License & Credits
-
-Distributed under the MIT License. Free to use and modify.
-
-<details>
-<summary>📜 <strong>Click to view full MIT License</strong></summary>
-<br>
-
-```text
-MIT License
-
-Copyright (c) 2026 KyuuAI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-</details>
-
-<br>
-
-<div align="center">
-  <p>Engineered with precision by <strong><a href="https://github.com/kyuuXzry">KyuuXzry</a></strong>.</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer" width="100%" />
-</div>
-```
