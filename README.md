@@ -1,72 +1,225 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=CapCut%20Downloader&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
-  
-  <br><br>
 
-  <p>
-    <a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER/stargazers"><img src="https://img.shields.io/github/stars/kyuuXzry/CAPCUT-DOWNLOADER?style=for-the-badge&logo=github&color=2c5364" alt="Stars"></a>
-    <a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER/network/members"><img src="https://img.shields.io/github/forks/kyuuXzry/CAPCUT-DOWNLOADER?style=for-the-badge&logo=github&color=2c5364" alt="Forks"></a>
-    <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-v18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
-    <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://img.shields.io/badge/Baileys-Latest-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Baileys"></a>
-  </p>
-
-  <br>
-  
-  <h3>High-Performance CapCut Scraper</h3>
-  <p><em>Engineered specifically for WhatsApp Bots using Baileys. Fast, reliable, and watermark-free.</em></p>
-
-  <br>
-
-  <p>
-    <a href="https://wa.me/628567126744"><img src="https://img.shields.io/badge/WhatsApp-Contact_Developer-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
-    <a href="https://instagram.com/rissxzry_"><img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-    <a href="https://kyuudev.my.id"><img src="https://img.shields.io/badge/Website-Visit-0f2027?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
-  </p>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=250&text=CapCut%20Downloader&fontSize=48&color=0:0F172A,50:164E63,100:0891B2&stroke=0891B2&fontColor=FFFFFF&animation=fadeIn&fontAlignY=55&desc=Fast%20%E2%80%A2%20Simple%20%E2%80%A2%20Powerful&descSize=16&descAlignY=75" width="100%" />
 
 <br>
 
----
+### A Powerful CapCut Downloader for WhatsApp Bots
 
-### 📌 Overview
+A lightweight CapCut scraper built for WhatsApp bots powered by Baileys.
 
-This plugin is a high-performance CapCut scraper designed exclusively for WhatsApp bots powered by the **Baileys** library. It provides a seamless, buffer-based download method that helps prevent video delivery issues often caused by direct CDN links.
+<br>
 
-### 🚀 Key Features
+<a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER/stargazers">
+  <img src="https://img.shields.io/github/stars/kyuuXzry/CAPCUT-DOWNLOADER?style=for-the-badge&logo=github&label=STARS&color=0E7490" alt="Stars">
+</a>
+<a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER/network/members">
+  <img src="https://img.shields.io/github/forks/kyuuXzry/CAPCUT-DOWNLOADER?style=for-the-badge&logo=github&label=FORKS&color=155E75" alt="Forks">
+</a>
+<a href="https://nodejs.org/">
+  <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+</a>
+<a href="https://github.com/WhiskeySockets/Baileys">
+  <img src="https://img.shields.io/badge/Baileys-Compatible-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Baileys">
+</a>
 
-* **No Watermark:** Extracts the original video directly from CapCut's servers.
-* **Buffer Processing:** Downloads the video into memory (`arraybuffer`) before sending it to WhatsApp.
-* **Rich Metadata:** Automatically fetches the video title, file size, and thumbnail for a premium preview.
-* **Clean Error Handling:** Handles invalid links and server timeouts to help prevent the bot from crashing.
+<br><br>
 
----
+<a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER">
+  <img src="https://img.shields.io/badge/Explore-Repository-0F172A?style=flat-square&logo=github&logoColor=white" alt="Repository">
+</a>
+<a href="https://kyuudev.my.id">
+  <img src="https://img.shields.io/badge/Developer-Website-0891B2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website">
+</a>
 
-### ⚙️ Prerequisites
-
-Ensure your server environment meets the following requirements before installation:
-
-<div style="background-color: #1a1a1a; padding: 15px; border-radius: 8px; border-left: 5px solid #2c5364; font-family: monospace;">
-  <span style="color: #8892b0;">$ node -v</span><br>
-  <span style="color: #64ffda;">v18.17.0</span> <span style="color: #6272a4;">// Minimum version required</span><br><br>
-  <span style="color: #8892b0;">$ npm install axios qs</span><br>
-  <span style="color: #50fa7b;">Install required packages</span>
 </div>
 
 ---
 
-### 📦 Installation Guide
+## ✨ Overview
 
-1. Clone this repository or download the `capcut.js` file.
-2. Locate the `plugins/` directory inside your WhatsApp bot project.
-3. Move the `capcut.js` file into the `plugins/` directory.
-4. Ensure your main file (e.g., `main.js` or `index.js`) has the plugin loader system enabled.
-5. Restart your bot instance.
+**CapCut Downloader** is a Node.js plugin designed to download CapCut videos directly through WhatsApp bots using the Baileys library.
+
+It processes video data before sending it to WhatsApp, helping provide a smoother download experience without relying on direct CDN links for delivery.
+
+## 🚀 Features
+
+<table>
+<tr>
+<td width="50%">
+
+### ⚡ Fast Processing
+Efficient video retrieval and buffer-based processing.
+
+</td>
+<td width="50%">
+
+### 🎬 Video Download
+Retrieve CapCut videos directly through a WhatsApp command.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🧩 Baileys Integration
+Designed for WhatsApp bot projects using Baileys.
+
+</td>
+<td width="50%">
+
+### 🛡️ Error Handling
+Handles invalid URLs and download errors gracefully.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📝 Video Metadata
+Supports video information such as titles and thumbnails when available.
+
+</td>
+<td width="50%">
+
+### 🔧 Easy Integration
+Simple plugin structure for compatible bot systems.
+
+</td>
+</tr>
+</table>
 
 ---
 
-### 💻 Usage
+## ⚙️ Requirements
 
-Send the following command in any WhatsApp chat:
+Make sure your environment has the following:
+
+| Requirement | Description |
+|:--|:--|
+| Node.js | Version 18 or newer |
+| npm | Package manager |
+| Axios | HTTP request handling |
+| qs | Query-string utilities |
+| Baileys | WhatsApp connection library |
+
+### Install Dependencies
+
+```bash
+npm install axios qs
+```
+
+> **Note:** Baileys should already be installed in your WhatsApp bot project.
+
+---
+
+## 📦 Installation
+
+**01 — Download the Plugin**
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kyuuXzry/CAPCUT-DOWNLOADER.git
+```
+
+**02 — Copy the File**
+
+Move `capcut.js` into your bot's `plugins/` directory.
+
+**03 — Check Compatibility**
+
+Ensure your bot supports the plugin's handler structure and provides the required Baileys connection object.
+
+**04 — Restart Your Bot**
+
+Restart your bot process to load the plugin.
+
+---
+
+## 💻 Usage
+
+Send the command below in a WhatsApp chat:
 
 ```text
 .capcut https://www.capcut.com/tv2/ZSgjAC6WX/
+```
+
+### How It Works
+
+```text
+CapCut URL
+    │
+    ▼
+Fetch Video Information
+    │
+    ▼
+Process Video Data
+    │
+    ▼
+Send Video to WhatsApp
+```
+
+Simple, straightforward, and easy to integrate into your existing bot.
+
+---
+
+## 🛠️ Plugin Configuration
+
+The plugin handler expects the following parameters from a compatible bot system:
+
+| Parameter | Type | Description |
+|:--|:--|:--|
+| `m` | Object | Incoming WhatsApp message |
+| `conn` | Object | Active Baileys socket connection |
+| `text` | String | URL provided after the command |
+| `command` | String | Executed command name |
+| `usedPrefix` | String | Prefix used to invoke the command |
+
+> **Compatibility:** The exact handler structure may vary depending on your WhatsApp bot framework. Adjust the integration if your project uses different parameter names.
+
+---
+
+## 📱 Contact & Community
+
+Have questions or want to explore more projects?
+
+<div align="center">
+
+<a href="https://wa.me/628567126744">
+  <img src="https://img.shields.io/badge/WhatsApp-Get_in_Touch-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+</a>
+<a href="https://instagram.com/rissxzry_">
+  <img src="https://img.shields.io/badge/Instagram-Follow_Me-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+</a>
+<a href="https://kyuudev.my.id">
+  <img src="https://img.shields.io/badge/Website-Visit_Now-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website">
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,50:164E63,100:0891B2&height=2&section=footer" width="100%">
+
+### Built for Developers. Designed for Simplicity.
+
+**Thanks for checking out CapCut Downloader!**
+
+If you find this project useful, consider giving the repository a ⭐
+
+<a href="https://github.com/kyuuXzry/CAPCUT-DOWNLOADER">
+  <img src="https://img.shields.io/badge/⭐%20Explore%20More%20Projects-kyuuXzry-0F172A?style=for-the-badge" alt="Explore More Projects">
+</a>
+
+<br><br>
+
+<sub>Made with passion · Powered by Node.js & Baileys</sub>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:164E63,100:0F172A&height=100&section=footer" width="100%">
+
+</div>
